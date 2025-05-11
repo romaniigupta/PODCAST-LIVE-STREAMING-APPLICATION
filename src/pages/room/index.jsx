@@ -37,8 +37,8 @@ const RoomPage = () => {
 
   useEffect(() => {
     const initRoom = async () => {
-      const appID = 935993418; // Replace with your ZEGOCLOUD App ID
-      const serverSecret = "e8de78b9bce8c3cdbb467bea4806747b"; // Replace with your server secret
+      const appID = 1230510880; // Replace with your ZEGOCLOUD App ID
+      const serverSecret = "d57b7e09d99313d19ca3c3310c6765ed"; // Replace with your server secret
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
         appID,
         serverSecret,
